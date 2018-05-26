@@ -15,7 +15,7 @@ This is a proof of concept to see if we can replicate Amazon API Gateway using d
 - CORS
 - Authorizer
   - Custom Authorizer **supported**
-  - Coginito Authorizer **not implemented yet**
+  - Cognito Authorizer **not implemented yet**
 - Lambda Integration
   - _Velocity templates support._ **supported**
 - Lambda Proxy Integration. **supported**
@@ -37,9 +37,9 @@ provider:
   name: aws
   runtime: nodejs4.3 # python2.7 is also supported
 
-# this is optional configurations
-# servicesPathDest is use for the case u want to compile all your src and out
-# put to another folder like dist
+# this is optional configuration
+# servicesPathDest is used for the case where you want to compile all your src and
+# output to another folder like dist
 #
 # services allows specifying a docker-compose.yml file and (optional)
 # projectName. This will start the docker-compose stack when simulate is run.
